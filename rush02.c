@@ -48,7 +48,7 @@ void	rush(int x, int y)
 	{
 		if (x_cur == 1)
 		{
-			ft_print_row(y, 'A', 'B', 'C');
+			ft_print_row(y, 'A', 'B', 'A');
 		}
 		else if (x_cur < x)
 		{
@@ -56,7 +56,7 @@ void	rush(int x, int y)
 		}
 		else
 		{
-			ft_print_row(y, 'C', 'B', 'A');
+			ft_print_row(y, 'C', 'B', 'C');
 		}
 		x_cur++;
 	}

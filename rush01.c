@@ -48,15 +48,15 @@ void	rush(int x, int y)
 	{
 		if (x_cur == 1)
 		{
-			ft_print_row(y, 'A', 'B', 'C');
+			ft_print_row(y, '/', '*', '\\');
 		}
 		else if (x_cur < x)
 		{
-			ft_print_row(y, 'B', ' ', 'B');
+			ft_print_row(y, '*', ' ', '*');
 		}
 		else
 		{
-			ft_print_row(y, 'C', 'B', 'A');
+			ft_print_row(y, '\\', '*', '/');
 		}
 		x_cur++;
 	}
